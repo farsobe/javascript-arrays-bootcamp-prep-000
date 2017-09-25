@@ -4,6 +4,22 @@ var chocolateBars = [
   'kitkat',
   'skittles'
 ]
+
+function addElementToBeginningOfArray.(array, element){
+  // add element to beginning of an array
+
+  return array.unshift(element)
+}
+
+
+
+
+
+
+
+
+
+
 /*
 function addElementToBeginningOfArray(array, element) {
   var alphaArray = array;
