@@ -8,7 +8,7 @@ var chocolateBars = [
 function addElementToBeginningOfArray(array, element){
   // add element to beginning of an array. Doesn't alter array.
 
-  return array [element, ...array];
+  return newArray =  [element, ...array];
 }
 
 
