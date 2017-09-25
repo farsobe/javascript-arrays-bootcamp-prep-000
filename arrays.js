@@ -10,7 +10,7 @@ function addElementToBeginningOfArray(array, element) {
   betaArray = [element, ...alphaArray];
   return betaArray;
 }
-
+/*
 function destructivelyAddElementToBeginningOfArray(array, element) {
   var catArray = array;
   array.unshift(element);
@@ -50,3 +50,4 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length - 1)
  }
+*/
