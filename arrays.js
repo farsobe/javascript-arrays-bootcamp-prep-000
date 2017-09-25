@@ -22,7 +22,7 @@ function addElementToEndOfArray(array, element) {
   echoArray = [...deltaArray, element];
   return echoArray;
 }
- 
+
 function destructivelyAddElementToEndOfArray(array, element) {
   var foxArray = array;
   array.push(element);
